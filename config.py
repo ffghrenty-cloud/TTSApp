@@ -8,7 +8,7 @@ MODEL_REPOSITORY = "snakers4/silero-models"
 MODEL_NAME = "silero_tts"
 MODEL_LANGUAGE = "multi"
 MODEL_CHECKPOINT = "multi_v2"
-SAMPLE_RATE = 48000
+SAMPLE_RATE = 16000
 DEVICE = "cpu"
 
 LANGUAGES = {
