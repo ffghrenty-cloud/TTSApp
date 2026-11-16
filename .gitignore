@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Local model cache and generated audio
+models/
+output/
+*.wav
+*.mp3
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
