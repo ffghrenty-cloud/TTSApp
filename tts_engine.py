@@ -60,7 +60,7 @@ class SileroTTSEngine:
 
         self.load()
 
-        if isinstance(self._available_speakers, dict):
+        if hasattr(self._available_speakers, "keys"):
             known_speakers = self._available_speakers.keys()
             if speaker not in known_speakers:
                 raise ValueError(f"Голос «{speaker}» отсутствует в модели Silero.")
